@@ -1,0 +1,27 @@
+h1{
+    width: 100px;
+    height:fit-content ;
+    margin:50px 0px;
+    background-color: aqua;
+
+}
+button{
+    margin:20px;
+    border:none;
+    background-color: rgb(201, 255, 6);
+    color:azure;
+    border-radius: 30%;
+    padding: 7px 15px;
+}
+.nov{
+    background-color: black;
+    color: aliceblue;
+
+}
+span{
+    margin:15px;
+}
+
+#q{
+    margin-left: 50%;
+}
