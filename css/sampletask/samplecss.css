@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(135, 174, 203);
+}
+
+
+li{
+    display:inline;
+    margin:20px;
+    
+}
+
+span{
+    display:block
+}
+
+h1{
+    background-color: brown;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
