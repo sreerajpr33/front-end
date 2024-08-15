@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-image:url("../work2/images/Animal\ Logo\ Ideas_\ Make\ Your\ Own\ Animal\ Logo\ -\ Looka.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    position:relative;
+}
+
+.box{
+    position:absolute;
+    background-color: aqua;
+    left:50%;
+    top:50%;
+}
