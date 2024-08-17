@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+    .nav{
+
+        padding: 5px;    
+        display: flex;   
+        justify-content: space-between;
+        background-color: white;
+        color: rgb(94, 90, 90);
+        font-size: 20px;
+        position: sticky;
+        top: 0;
+        }
+    span{
+        margin: 10px;
+    }
+    .image{
+        display: flex;
+        margin: 50px;
+        padding: 10px;
+        /* max-width: 70%;
+        max-height: 50%; */
+        flex: 2;
+    }
+    .img{
+        background-color: aquamarine;
+        width: 100%;
+        height: 50vh;
+    }
+.img img{
+    width:100%;
+    height:100%;
+}
+    .right1{
+        /* margin-top: 40px; */
+        background-color: black;
+        color:white ;
+        flex: 1;
+    }
+
+    hr{
+        padding:0;
+        color:cadetblue;
+    }
+    
+
+
