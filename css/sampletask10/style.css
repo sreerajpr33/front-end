@@ -68,6 +68,10 @@
     h2{
         padding: 20px;
     } 
+    .y{
+        color: orange;
+
+    }
     h3{
         padding:20px
     }
@@ -75,6 +79,9 @@
         padding:10px;
     }
     .p1{
+        padding:20px;
+    }
+    .p{
         padding:20px;
     }
     button{
