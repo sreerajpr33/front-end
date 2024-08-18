@@ -20,10 +20,10 @@
     }
     .image{
         display: flex;
-        margin: 50px;
+        gap: 20px;
         padding: 10px;
-        /* max-width: 70%;
-        max-height: 50%; */
+        /* max-width: 70%; */
+        /* max-height: 50%;  */
         flex: 2;
     }
     .img{
@@ -40,6 +40,8 @@
         background-color: black;
         color:white ;
         flex: 1;
+        min-width: 30%;
+        padding:20px;
     }
 
     hr{
@@ -47,5 +49,54 @@
         color:cadetblue;
     }
     
+    .limg{
+        display:flex
+    }
 
+    .ltext{
+        flex:1;
+        margin: 20px;;
+        
+    }
 
+    .rtext{
+        flex: 1;
+        /* margin: 20px; */
+        /* padding: 20px; */
+        
+    }
+    h2{
+        padding: 20px;
+    } 
+    h3{
+        padding:20px
+    }
+    h5{
+        padding:10px;
+    }
+    .p1{
+        padding:20px;
+    }
+    button{
+        color: rgb(0, 0, 0);
+        background-color: rgb(222, 71, 71);
+        border: 0;
+        padding:10px;
+        margin:20px;
+    }
+    .second{
+        display:flex
+    }
+    .sec1{
+        display:flex;
+        flex:1;
+        padding:10px;
+        /* background-color: aqua; */
+    }
+    .text11{
+        padding:10px;
+    }
+    .p4{
+        padding:10px;
+    }
+    
