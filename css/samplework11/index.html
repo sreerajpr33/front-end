@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
-<div>
 <body>
-    <div class="main">
-        <h4>Contact Us</h4>
+    <div class="container">
+        <div class="container1">
+
         <div class="child1">
-            <!-- name -->
-            <div class="c1">
-                <div class="c11">
-                    <p>first Name*</p>
-                    <input type="text"></div>
-                <div class="c22">
-                    <p>Last name*</p>
-                    <input type="text"></div>
+            <h2>Contact Us</h2>
+        </div>
+        
+        <!-- Names input -->
+        <div class="child2">
+            <div class="gchild1">
+            <p>First name</p>
+            <input type="text" />
             </div>
-            <!-- email -->
-            <div class="c2">   
-                <p>Email address*</p>
-                <input type="email" class="email">
+            <div class="gchild2">
+            <p>Last name</p>
+            <input type="text" />
             </div>
-            <!-- checkbox -->
-            <div class="c3">
-                <p>Query Type*</p>
+        </div>
+
+        <!-- Email input -->
+        <div class="child3">
+            <p>Email</p>
+            <input type="text" />
+        </div>
+
+        <!-- Radio input -->
+        <div class="child4">
+            <p>Query type</p>
+            <div class="child5">
+            <div class="gchild51">
+                <input type="radio" id="g1" name="query-type" />
+                <label for="g1">General Enquiry</label>
             </div>
-            <div class="c4">
-                <div class="c31"><input class="t1" type="checkbox">general enquity</div>
-                <div class="c31"><input class="t1" type="checkbox">support request</div>
+            <div class="gchild52">
+                <input type="radio" id="g2" name="query-type" />
+                <label for="g2">Support Request</label>
             </div>
-            <!-- message -->
-            <div class="c5">
-                <p>message*</p>
-                <input type="text"class="message">
             </div>
-            <!-- checkbox2 -->
-            <div class="c6">
-                <input type="checkbox">i consent to being contacted by the team*
-            </div>
-            <div class="c7">
-                <button>submit</button>
-            </div>
+        </div>
+
+        <!-- Message input -->
+        <div class="child6">
+            <p>Message</p>
+            <textarea></textarea>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="child7">
+            <input type="checkbox" id="c7">
+            <label for="c7">I consent to being contacted by the team</label>
+        </div>
+
+        <!-- Button -->
+        <div class="btn">
+            <button>Submit</button>
+        </div>
+        </div>
     </div>
-</div>
-</body>
+    </body>
 </html>
