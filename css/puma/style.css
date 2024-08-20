@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.abovenovbar{
+    text-align: center;
+    height:20px;
+    padding:10px;
+    color:white;
+    background-color: rgb(186, 117, 56);
+    font-family: "Roboto", sans-serif;
+
+}
+
+ /* navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    
+}
+.left{
+    /* align-items: center; */
+    margin:10px 30px 10px 30px;
+    justify-content: space-between;
+}
+.img1{
+    height:40px;
+    width: 40px;
+    margin: 10px;
+}
+
+
+.middle{
+    margin:30px 0px 30px 0px;
+}
+
+span{
+    margin:10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+.right{
+    margin: 20px;
+}
+.image1{
+    margin-left: 20px;
+}
+
+    
+.search-button {
+    background-color: black;
+    width: 150px;
+    height:40px;
+    color: white;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1; 
+    margin-left: 40px;
+
+}
+
+.search-icon {
+    margin-left: 10px;
+    width: 20px; 
+    height: 20px;
+    display: block; 
+    
+}
+/* ------navbar------ */
+.main1{
+    background-color: rgb(131, 104, 239);
+    height: 70px;
+}
+
+.m1t1{
+    padding-top:20px;
+    text-align: center;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+.m1t2{
+    text-align: center;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
