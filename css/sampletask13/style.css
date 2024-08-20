@@ -50,7 +50,7 @@ hr{
 }
 .img4{
     width:84%;
-    max-height:80%;
+    max-height:60%;
     margin:40px 40px 10px 40px;
     border-radius: 5%;
 }
@@ -79,7 +79,7 @@ hr{
 /* rightside */
 .child2{
     flex:1;
-    background-color:rgb(218, 147, 147) ;
+    background-color:white ;
     margin-top: 100PX;
     margin-left: 50PX;
     justify-content:left;
@@ -121,4 +121,46 @@ p{
     text-decoration: line-through;
     font-size: 15px;
 }
+.b{
+    /* background-color: black; */
+    display: flex;
+
+}
+.bleft{
+    background-color:aliceblue;
+    max-width: fit-content;
+    border-radius: 15%;
+}
+.b2{
+    border:none;
+    background-color:aliceblue;
+    border-radius: 15%;
+    font-family: "Roboto", sans-serif;
+    width:40px;
+    height:40px;
+}
+.bright{
+    background-color:orange;
+    border-radius: 15%;
+    margin-left: 20px;
+    min-width:30px;
+    min-height: 30px;
+
+}
+.b0{
+    background-color: orange;
+    border-radius: 15%;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    padding: 10px;
+    height:30px;
+}
+.bimg{
+    height: 15px;
+    margin:auto;
+
+}
+
+
 
