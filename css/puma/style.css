@@ -100,7 +100,7 @@ span{
 }
 /* section1 */
 .body2{
-    background-color: rgb(142, 227, 244);
+    background-color: rgb(170, 216, 230);
     height:400px;
     display: flex;
 }
@@ -167,6 +167,8 @@ span{
     height:30px;
     margin: 10px;
     cursor: pointer;
+    border:solid black;
+    cursor: pointer;
 }
 /* section3 */
 .section3{
@@ -196,4 +198,6 @@ span{
     margin:5px;
     width: 150px;
     height:40px;
+    border:solid black;
+    cursor: pointer;
 }

@@ -1,0 +1,44 @@
+.but{
+    background-color: black;
+    color: azure;
+    /* margin-top: 350px;
+    margin-left: 350px; */
+    transition-duration:0.3s ;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: aqua;
+} 
+
+.but:active{
+    background-color: rgb(108, 232, 77);
+}
+.input{
+    background-color: aliceblue;
+}
+
+.input:focus{
+    background-color: black;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+    overflow-y:hidden;
+    height:400px;
+    
+}
+img{
+    background-color: aqua;
+    transition-duration:0.3s ;
+}
+
+img:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+
+
