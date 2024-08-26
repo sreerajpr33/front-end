@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+}
+.t{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    transition: 0.7s;
+}
+.t:hover{
+    background-color: black;
+    transform: rotate(360deg);
+
+}
+.s{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    transition: 0.7s;
+}
+.s:hover{
+    background-color: black;
+    transform: scale(1,2);
+
+}
+.y{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    transition: 0.7s;
+}
+.y:hover{
+    background-color: black;
+    transform:skew(20deg);
+
+}
+.f{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    transition: 0.7s;
+}
+.f:hover{
+    background-color: black;
+    transform:skewy(20deg);
+
+}
+.a{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    transition: 0.7s;
+}
+.a:hover{
+    background-color: black;
+    transform:scale(2,1);
+
+}
+

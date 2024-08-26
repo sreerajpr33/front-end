@@ -213,6 +213,7 @@ span {
 
 /* section4 */
 .section4 {
+  /* margin-bottom: 20px; */
   margin-top: 10px;
   display: flex;
   overflow-y: hidden;
@@ -448,4 +449,17 @@ hr {
   color: grey;
   font-size: 10px;
   margin-left: 55vh;
+  width: 100%;
+}
+@media (min-width:400px) and (max-width:996.98px){
+  .section5 {
+    z-index: 0;
+  }
+  .sec51 {
+   z-index: 0;
+  }
+  .sec52{
+   z-index: 0;
+  }
+
 }
