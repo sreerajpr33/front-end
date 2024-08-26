@@ -6,9 +6,7 @@ body {
   background-color: black;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-        
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 .abovenovbar {
   text-align: center;
@@ -71,9 +69,9 @@ span {
   font-family: "Roboto Condensed", sans-serif;
   transition: 0.5s;
 }
-.search-button:hover{
-    color: black;
-    background-color: rgb(254, 254, 254);
+.search-button:hover {
+  color: black;
+  background-color: rgb(254, 254, 254);
 }
 
 .search-icon {
@@ -93,12 +91,10 @@ span {
   padding-top: 20px;
   text-align: center;
   color: white;
- 
 }
 .m1t2 {
   text-align: center;
   color: white;
-
 }
 /* section1 */
 .body2 {
@@ -132,7 +128,7 @@ span {
   background-color: white;
   border: solid white;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 .body2buttons1:hover {
   background-color: black;
@@ -169,11 +165,11 @@ span {
   cursor: pointer;
   border: solid black;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.6s;
 }
-.section2but:hover{
-    color:black;
-    background-color: white;
+.section2but:hover {
+  color: black;
+  background-color: white;
 }
 /* section3 */
 .section3 {
@@ -210,9 +206,9 @@ span {
   cursor: pointer;
   transition: 0.5s;
 }
-.sec3but:hover{
-    color: black;
-    background-color: white;
+.sec3but:hover {
+  color: black;
+  background-color: white;
 }
 
 /* section4 */
@@ -234,9 +230,13 @@ span {
   width: 100%;
   height: 250px;
 }
-.sec41:hover{
+.sec41:hover {
   transform: scale(1.1);
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(255, 255, 255, 0.12) 0px -12px 30px,
+    rgba(255, 255, 255, 0.12) 0px 4px 6px,
+    rgba(255, 255, 255, 0.17) 0px 12px 13px,
+    rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 .sec4div {
   display: flex;
@@ -249,113 +249,203 @@ span {
 .sec41right {
   text-align: center;
   margin-top: 4px;
-  margin-left:5px;
+  margin-left: 5px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
   height: 6px;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: rgb(201, 197, 197);
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgb(87, 84, 84);
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:hover{
-  background-color: black;
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(46, 41, 41);
 }
 /* section5 */
-.section5{
-            margin-top: 20px;
-            width: 100%;
-            height:20vh;
-            font-family: "Roboto Condensed", sans-serif;
-        }
-        .sec51{
-          position: absolute;
-          top: 350;
-          margin-top: 250px;
-          margin-left: 20PX;
-          left:20;
-          background-color: aqua;
-          width:98vh;
-          height:60vh;
-          z-index: -1;
-      }
-      .sec52{
-          position: absolute;
-          top:40;
-          left:600px;
-          background-color:blue;
-          width: 100vh;
-          height: 110vh;
-          z-index: -2;
-          
-      }
-      .sec53{
-          position: absolute;
-          top:60;
-          left: 0;
-          z-index: -3;
-          background-color: rgb(77, 75, 75);
-          width:100%;
-          height: 80vh;
-          margin-top: 40px;
-      }
-      .sec5img{
-          width: 100%;
-          height: 100%;
-      }
-      .sec5text1{
-          margin-left: 20px;
-          color: white;
-          margin-top:40px;
-      }
-      .sec5text2{
-          position: absolute;
-          top: 60;
-          margin-left: 20px;
-          margin-top: 5px;
-          left: 20;
-          color: white;
-      }
-      .sec5but1{
-          position: absolute;
-          top:120;
-          margin-top: 50px;
-          margin-left: 20px;
-          height: 50px;
-          width:150px;
-          left: 20;
-          border: none;
-          background-color: white;
-          color: black;
-          transition: 0.5s;
-      }
-      .sec5but2{
-          position: absolute;
-          top:120;
-          margin-top: 50px;
-          margin-left: 190px;
-          height:50px;
-          width:150px;
-          border: none;
-          background-color: white;
-          color: black;
-          transition: 0.5s;
-          left: 200;
-      }
-      .sec5but2:hover{
-          background-color: black;
-          color:white;
-      }
-      .sec5but1:hover{
-          background-color: black;
-          color:white;
-      }
-
-
-
+.section5 {
+  margin-top: 20px;
+  width: 100%;
+  height: 20vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.sec51 {
+  position: absolute;
+  top: 350;
+  margin-top: 250px;
+  margin-left: 20px;
+  left: 20;
+  background-color: aqua;
+  width: 98vh;
+  height: 60vh;
+  z-index: -1;
+}
+.sec52 {
+  position: absolute;
+  top: 40;
+  left: 600px;
+  background-color: blue;
+  width: 100vh;
+  height: 110vh;
+  z-index: -2;
+}
+.sec53 {
+  position: absolute;
+  top: 60;
+  left: 0;
+  z-index: -3;
+  background-color: rgb(77, 75, 75);
+  width: 100%;
+  height: 80vh;
+  margin-top: 40px;
+}
+.sec5img {
+  width: 100%;
+  height: 100%;
+}
+.sec5text1 {
+  margin-left: 20px;
+  color: white;
+  margin-top: 40px;
+}
+.sec5text2 {
+  position: absolute;
+  top: 60;
+  margin-left: 20px;
+  margin-top: 5px;
+  left: 20;
+  color: white;
+}
+.sec5but1 {
+  position: absolute;
+  top: 120;
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 50px;
+  width: 150px;
+  left: 20;
+  border: none;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.sec5but2 {
+  position: absolute;
+  top: 120;
+  margin-top: 50px;
+  margin-left: 190px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  left: 200;
+}
+.sec5but2:hover {
+  background-color: black;
+  color: white;
+}
+.sec5but1:hover {
+  background-color: black;
+  color: white;
+}
+/* footer */
+.footer {
+  display: flex;
+  height: 48vh;
+  margin-top: 100vh;
+}
+.footer1 {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 30px);
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.footer2 {
+  background-color: rgb(39, 38, 38);
+  width: 25%;
+}
+.ftrtext1 {
+  margin-top: 30px;
+  color: white;
+}
+.ftrtext2 {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+.ftricon {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ftricon1 {
+  margin-top: 20px;
+}
+.ftricon2 {
+  width: 50px;
+}
+.ftrbut {
+  margin-top: 10px;
+  background-color: black;
+  border: 1px solid white;
+  transition: 0.6s;
+}
+.ftrbut1 {
+  background-color: black;
+  border: 1px solid white;
+  margin-left: 20px;
+  transition: 0.6s;
+}
+.ftrbut:hover {
+  border: 1px solid purple;
+}
+.ftrbut1:hover {
+  border: 1px solid purple;
+}
+hr {
+  color: rgb(84, 82, 82);
+  margin: 0px 30px 0px 30px;
+}
+.footer3 {
+  background-color: rgb(39, 38, 38);
+  height: 15vh;
+  display: flex;
+}
+.lastimg {
+  margin-left: 10px;
+  max-width: 30px;
+  max-height: 30px;
+  margin-top: 20px;
+}
+.ftrind {
+  width: 50px;
+  border-radius: 360px;
+  height: 50px;
+}
+.ftrindbut {
+  align-items: center;
+  background-color: rgb(39, 38, 38);
+  border: 1px solid white;
+  margin-left: 70vh;
+  margin-top: 20px;
+  transition: 0.6s;
+}
+.ftrindbut:hover {
+  border: 1px solid purple;
+}
+.ftrlastt {
+  margin-top: 5px;
+  color: grey;
+  font-size: 10px;
+  margin-left: 55vh;
+}
