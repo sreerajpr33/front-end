@@ -274,6 +274,7 @@ span {
   height:10vh;
   /* background-color: aqua; */
   margin-top: 30px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .sec53{
   position: absolute;
@@ -359,6 +360,7 @@ color: white;
   display: flex;
   height: 48vh;
   margin-top: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .footer1 {
   background-color: rgb(39, 38, 38);
