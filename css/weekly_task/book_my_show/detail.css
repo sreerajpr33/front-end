@@ -96,6 +96,7 @@ nav img{
     height:70vh;
     background-color: #000000;
     margin-top: 10PX;
+    font-family: "Nunito Sans", sans-serif;
 }
 .sec1img1{
     width: 50%;
@@ -120,3 +121,94 @@ nav img{
     border-radius: 2%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+.sec1div2{
+    width:40%;
+    height:40vh ;
+    position: absolute;
+    top:30vh;
+    left:25vw;
+}
+ul {
+    list-style-type: none;
+    padding: 2px;
+    color: white;
+  }
+  .sec1li{
+    background-color: rgb(47, 46, 46);
+    width:90%;
+    height:60px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 10px;
+  }
+  .sec1liu{
+    font-size: 30px;
+    margin-left: 10px;
+    
+  }
+  .sec1liimg{
+    padding-top: 15px;
+    padding-left:20px;
+  }
+  .sec1liimgdis{
+    padding-top: 14px;
+    padding-left:20px;
+    font-size: 18px;
+    color: white;
+  }
+  .sec1liimgdis button{
+    margin-left: 11vw;
+    height: 30px;
+    border-radius: 2px;
+    border:1px solid white;
+    font-size: 15px;
+    
+  }
+  .sec1li2u button{
+    height:20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-top: 25px;
+  }
+  .sec1li3u{
+    margin-left: 10px;
+  }
+  /* section2 */
+  .section2{
+    width:65%;
+    margin-left: 30px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .hr{
+    color: rgb(183, 180, 180);
+  }
+  /* sectin3 */
+  .section3{
+    background-color: rgb(255, 255, 255);
+    height:40vh;
+  }
+  .sec3div1{
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-size:30px ;
+  }
+  .sec3div2{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+  }
+  .sec3castimg{
+    width:10%;
+    background-color: black;
+    height:20vh;
+    border-radius: 100px;
+    margin-top: 20px;
+  }
+  .sec3castimg img{
+    width: 100%;
+    height:100%;
+    border-radius: 100px;
+  }

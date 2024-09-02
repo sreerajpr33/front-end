@@ -133,6 +133,7 @@ nav img{
     display: flex;
     justify-content: space-between;
     font-family: "Nunito Sans", sans-serif;
+    margin-top: 40px;
 }
 .sec2left{
     background-color: rgb(255, 255, 255);
@@ -205,7 +206,7 @@ nav img{
 }
 .sec31 span{
     position: absolute;
-    top: 145vh;
+    top: 150vh;
     left:13vw;
     color: rgb(89, 87, 87);
     font-size: 35px;
@@ -213,7 +214,7 @@ nav img{
 .sec31 p{
     position: absolute;
     left:35vw;
-    top: 137vh;
+    top: 142vh;
     font-size: 30px;
     color: rgb(241, 234, 25);
 }
@@ -254,7 +255,7 @@ nav img{
     width: 100%;
     height: auto;
     background-color: rgb(26, 46, 61);
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: "Nunito Sans", sans-serif;
   }
 
