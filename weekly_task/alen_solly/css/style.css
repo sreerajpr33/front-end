@@ -141,7 +141,6 @@ input:focus{
     border-radius: 50px;
     display: flex;
     position: relative;
-    padding: 7px;
 }
 
 .button1 span{
@@ -163,4 +162,89 @@ left:10px;
 .navimg2{
     margin-left: 20px;
 }
+/* container1 */
+.carousel-item img {
+    height: 70vh; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure images fill the area without distortion */
+    width: 100%;
+}
+@media  (max-width:467px){
+    nav{
+        height:auto;
+        display:list-item;
+    }
+    nav li{
+        margin-left: 10px;
+    }
+    .navimg2{
+        width:20px;
+    }
+    .button1 span{
+        font-size: 7px;
+       
+    }
+    .button1 img{
+        margin-top: 10px;
+        position: absolute;
+        top:0;
+    left:10px;
+    }
+    .button1 li{
+        margin-left: 30px;
+        font-size: 6px;
+    }
+    .button1{
+        min-width:20vw;
+        
+    }
+    .carousel-item img {
+        height: 40vh; /* Adjust the height as needed */
+        object-fit: cover; /* Ensure images fill the area without distortion */
+        width: 100%;
+    }
+
+}
+@media  (min-width:470) and (max-width:967px){
+    
+}
+@media(min-width:470px) and (max-width:867px){
+    nav{
+        height:auto;
+        display:list-item;
+    }
+    nav li{
+        margin-left: 30px;
+    }
+    .navimg2{
+        width:10px;
+    }
+    .button1 span{
+        font-size: 7px;
+    }
+    .button1 img{
+        margin-top: 10px;
+        position: absolute;
+        top:0;
+    left:10px;
+    }
+    .button1 li{
+        margin-left: 20px;
+        font-size: 6px;
+    }
+    .button1{
+        min-width:20vw;
+        height:auto;
+    }
+    .carousel-item img {
+        height: 40vh; /* Adjust the height as needed */
+        object-fit: cover; /* Ensure images fill the area without distortion */
+        width: 100%;
+    }
+    .navlogo{
+        height:7vh;
+        width:10vw;
+        margin-left:0px;
+    }
+    }
+
 
