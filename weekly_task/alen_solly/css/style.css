@@ -273,8 +273,50 @@ left:10px;
 
 }
 .container4dis{
+    margin-top: 20px;
     text-align: center;
 }
+/* container5 */
+.container5{
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+.container5divs{
+    background-color: aquamarine;
+    height:60vh;
+    width: 22vw;
+    position: relative;
+}
+.container5divs img{
+    width:100%;
+    height: 100%;
+    
+}
+.container5divs button{
+    width:12vw;
+    height:40px;
+    position: absolute;
+    left:5vw;
+    top:50vh;
+    font-size: 13px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+.c5but1:hover{
+    color: WHITE;
+    background-color:BLACK ;
+    border:1px solid rgb(0, 140, 255);
+}
+
 
 @media  (max-width:467px){
     /* navbar */
@@ -343,6 +385,16 @@ left:10px;
         width:40vw;
         height:30vh;
     }
+    /* container5 */
+    .container5divs{
+        height:50vh;
+        width: 40vw;
+    }
+    .container5divs button{
+        width:20vw;
+        left:10vw;
+        top:40vh;
+    }
 
 }
 @media(min-width:470px) and (max-width:867px){
@@ -406,6 +458,16 @@ left:10px;
     .container3divs3{
         width:40vw;
         height:30vh;
+    }
+    /* container5 */
+    .container5divs{
+        height:50vh;
+        width: 40vw;
+    }
+    .container5divs button{
+        width:20vw;
+        left:10vw;
+        top:40vh;
     }
     }
 
