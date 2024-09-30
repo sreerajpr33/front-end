@@ -2,25 +2,31 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    background-color: rgb(232, 227, 227);
+}
 .container1{
     width: 100%;
-    height:25px;
+    height:30px;
     background-color: rgb(205, 189, 169);
+    text-align: center;
+    text-decoration: wavy;
 }
 .conatiner2{
-    height:80vh;
+    height:75vh;
     width: 100%;
-    background-color: aqua;
+    background-color: rgba(60,20,10,255);
     position: relative;
 }
 .c2img{
-    width: 100%;
+    width: 40%;
     height: 100%;
+    margin-left: 5vw;;
 }
 .c2div{
 position: absolute;
-top:10vh;
-left:20px;
+top:4vh;
+left:60vw;
 color: white;
 }
 
@@ -236,15 +242,26 @@ width: 100%;
     width:20px;
 }
 @media  (max-width:467px){
+    .conatiner2{
+        height:33vh;
+    }
     .c2div{
-        top:5vh;
+        top:0vh;
+        left:40vw;
         }
+    .c2div p{
+        font-size: 15px;
+    }
+    .c2div h3{
+        font-size: 15px;
+    }
     .c2div img{
-        width:100%;
+        width:60%;
+        margin-left: 8vw;
        }
        .c2div button{
-        height: 40px;
-        width:50vw;
+        height: 30px;
+        width:40vw;
     }
     .container3{
         gap:40px
@@ -290,15 +307,26 @@ width: 100%;
         }
 }
 @media(min-width:469px) and (max-width:667px){
+    .conatiner2{
+        height:35vh;
+    }
     .c2div{
-        top:5vh;
+        top:0vh;
+        left:40vw;
         }
+    .c2div p{
+        font-size: 15px;
+    }
+    .c2div h3{
+        font-size: 15px;
+    }
     .c2div img{
-        width:100%;
+        width:60%;
+        margin-left: 8vw;
        }
        .c2div button{
-        height: 40px;
-        min-width:50vw;
+        height: 30px;
+        width:40vw;
     }
     .container5{
         gap:10px;
@@ -336,6 +364,30 @@ width: 100%;
 
 }
 @media(min-width:669px) and (max-width:1096px){
+    .conatiner2{
+        height:60vh;
+    }
+    .c2div{
+        top:5vh;
+        left:50vw;
+        }
+    .c2div p{
+        font-size: 35px;
+    }
+    .c2img{
+        margin-left: 40px;
+    }
+    .c2div h3{
+        font-size: 35px;
+    }
+    .c2div img{
+        width:90%;
+        margin-left: 1vw;
+       }
+       .c2div button{
+        height: 30px;
+        width:20vw;
+    }
     .container5{
         gap:10px;
         justify-content: center;
